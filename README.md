@@ -4,8 +4,6 @@
 
 > Astro + Tailwind CSS
 
-![Screenshots of Astro Landing Page](screenshots.jpg)
-
 ## Commands
 
 | Command                | Action                                            |
