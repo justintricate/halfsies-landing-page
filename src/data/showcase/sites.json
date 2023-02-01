@@ -1,32 +1,14 @@
 [
   {
-    "title": "PoliNations",
-    "image": "./images/polinations.png",
-    "url": "https://polinations.com/"
+    "title": "Image 1 Subtitle",
+    "image": "./images/app example.png"
   },
   {
-    "title": "Astro Docs",
-    "image": "./images/astro-docs.png",
-    "url": "https://docs.astro.build/"
+    "title": "Image 2 Subtitle",
+    "image": "./images/app example.png"
   },
   {
-    "title": "<div>RIOTS",
-    "image": "./images/divriots.png",
-    "url": "https://divriots.com/"
-  },
-  {
-    "title": "Designcember",
-    "image": "./images/designcember.png",
-    "url": "https://designcember.com/"
-  },
-  {
-    "title": "The Firebase Blog",
-    "image": "./images/firebase-blog.png",
-    "url": "https://firebase.blog/"
-  },
-  {
-    "title": "Corset",
-    "image": "./images/corset.png",
-    "url": "https://corset.dev/"
+    "title": "Image 3 Subtitle",
+    "image": "./images/app example.png"
   }
 ]

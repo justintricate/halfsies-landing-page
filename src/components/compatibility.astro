@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon";
 import CompatibilityList from "~/components/compatibility-list.astro";
 import ContentSection from "~/components/content-section.astro";
 import type { CompatibilityItem } from "~/types";
@@ -72,18 +73,7 @@ const platforms: Array<CompatibilityItem> = [
 
 <ContentSection title="Compatibility" id="compatibility">
   <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
+    Halfsies <span class="text-primary">plays nice</span>. Tried and tested on both
+    <span class="text-primary">iOS and Android</span>, the only people that aren't compatible are <span class="text-primary">mooches.</span>
   </Fragment>
-  <CompatibilityList
-    items={frameworks}
-    title="Frameworks"
-    url="https://docs.astro.build/core-concepts/framework-components/"
-  />
-  <CompatibilityList
-    items={platforms}
-    title="Platforms"
-    url="https://docs.astro.build/guides/deploy/"
-  />
 </ContentSection>
