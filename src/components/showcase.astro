@@ -8,11 +8,11 @@ const sites = await getShowcase();
 
 <ContentSection title="Showcase" id="showcase">
   <Fragment slot="lead">
-    Halfsies is the <span class="text-primary">new-age napkin math</span>. 
+    Halfsies is the <span class="text-primary">new-age napkin math</span>.
     Explore what's in store for <span class="text-primary">you</span>.
   </Fragment>
-  <div class="max-w-6xl space-y-2">
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+  <div class="max-w-7xl space-y-2">
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-3">
       {sites.map((site) => <ShowcaseCard site={site} />)}
     </div>
   </div>

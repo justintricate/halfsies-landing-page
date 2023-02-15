@@ -1,14 +1,14 @@
 [
   {
-    "title": "Image 1 Subtitle",
-    "image": "./images/app example.png"
+    "title": "Choose Who to Split With",
+    "image": "./images/participants.png"
   },
   {
-    "title": "Image 2 Subtitle",
-    "image": "./images/app example.png"
+    "title": "Dish out the Dishes",
+    "image": "./images/assign.png"
   },
   {
-    "title": "Image 3 Subtitle",
-    "image": "./images/app example.png"
+    "title": "Track Who Has Paid, and Who Hasn't",
+    "image": "./images/summary.png"
   }
 ]

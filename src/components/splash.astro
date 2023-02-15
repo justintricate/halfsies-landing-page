@@ -12,8 +12,7 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
 <section class="relative h-full bg-black">
   <Starfield />
   <GitHubCorner />
-  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
-  </div>
+  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40"></div>
   <div class="relative grid h-full place-items-center sm:grid-cols-2">
     <h2
       class="flex flex-col gap-2 self-end sm:gap-4 sm:self-auto sm:justify-self-end"
@@ -21,16 +20,18 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
       <div
         class="gradient-text text-center font-extrabold tracking-tighter text-9xl"
       >
-      Halfsies.<br/>      <div
-      class="gradient-text text-center font-bold tracking-tighter text-6xl"
-    >
-        Never pick up
-        <br /> the tab again.</div>
+        Halfsies.<br />
+        <div
+          class="gradient-text text-center font-bold tracking-tighter text-6xl"
+        >
+          Never pick up
+          <br /> the tab again.
+        </div>
       </div>
     </h2>
     <div
       id="astronaut"
-      class="w-2/3 max-w-3xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start"
+      class="w-2/3 max-w-2xl self-start sm:w-10/12 sm:self-auto sm:justify-self-start"
     >
       <Picture
         class="object-cover w-full h-full"
